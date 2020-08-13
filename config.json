@@ -41,5 +41,5 @@
       }
     ]
   },
-  "image": "homeassistant/{arch}-addon-tellstick"
+  "image": "Marcussjogren/ha-tellstick-duo-remote"
 }
