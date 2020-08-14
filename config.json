@@ -42,5 +42,5 @@
       }
     ]
   },
-  "image": "marcussjogren/{arch}-tellstick-duo-remote"
+  "image": "marcussjogren/tellstick-duo-remote"
 }
