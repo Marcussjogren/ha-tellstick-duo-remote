@@ -4,7 +4,7 @@
   "slug": "ha_tellstick_rem",
   "description": "TellStick and TellStick Duo service",
   "url": "https://github.com/Marcussjogren/ha-tellstick-duo-remote",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": ["amd64", "i386"],
   "startup": "system",
   "stdin": true,
   "boot": "auto",
