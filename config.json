@@ -1,5 +1,6 @@
 {
   "name": "TellStick Duo Remote",
+  "version": "2.0",
   "slug": "ha_tellstick_rem",
   "description": "TellStick and TellStick Duo service",
   "url": "https://github.com/Marcussjogren/ha-tellstick-duo-remote",
