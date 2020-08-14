@@ -1,7 +1,7 @@
 {
-  "name": "TellStick-Lab",
+  "name": "TellStick Duo Remote",
   "version": "2.0",
-  "slug": "tellstick",
+  "slug": "ha_tellstick_rem",
   "description": "TellStick and TellStick Duo service",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "system",
@@ -41,5 +41,5 @@
       }
     ]
   },
-  "image": "Marcussjogren/ha-tellstick-duo-remote"
+  "image": "marcussjogren/ha-tellstick-duo-remote"
 }
