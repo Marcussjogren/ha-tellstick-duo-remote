@@ -2,7 +2,7 @@
   "name": "TellStick Duo Remote",
   "version": "0.2.2",
   "slug": "ha_tellstick_rem",
-  "description": "TellStick and TellStick Duo Remote service",
+  "description": "TellStick Duo Remote service",
   "url": "https://github.com/marcussjogren/ha-tellstick-duo-remote",
   "arch": ["amd64", "i386"],
   "startup": "system",
