@@ -1,6 +1,0 @@
-{
-  "image": "marcussjogren/{arch}-tellstick-duo-remote",
-  "build_from": {
-    "amd64": "homeassistant/amd64-builder:latest",
-  },
-}
