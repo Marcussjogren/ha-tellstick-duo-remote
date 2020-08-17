@@ -41,4 +41,6 @@ RUN apk add --no-cache \
 # Copy data for add-on
 COPY data/run.sh /
 
+RUN chmod a+x /run.sh
+
 CMD [ "/run.sh" ]
