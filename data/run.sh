@@ -1,4 +1,5 @@
 #!/usr/bin/env bashio
+#LOL
 set -e
 
 CONFIG="/etc/tellstick.conf"
