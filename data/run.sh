@@ -59,7 +59,7 @@ bashio::log.info "Exposing sockets and loading service..."
 
 # Add remote Tellstick Duo via USB over Socat
 #socat PTY,raw,echo=0,link=/dev/ttyS1 tcp:10.10.0.210:8888
-socat pty,link=/dev/ttyVT1,waitslave tcp:10.10.0.210:8888,forever,reuseaddr,keepalive &
+socat pty,link=/dev/ttyS1,waitslave tcp:10.10.0.210:8888,forever,reuseaddr,keepalive &
 ls /dev
 bashio::log.info "Startade Socat"
 
