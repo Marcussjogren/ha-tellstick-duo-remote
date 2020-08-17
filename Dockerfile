@@ -1,4 +1,4 @@
-ARG BUILD_FROM="homeassistant/amd64-builder"
+ARG BUILD_FROM="homeassistant/amd64-base"
 FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
