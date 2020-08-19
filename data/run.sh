@@ -63,6 +63,9 @@ socat pty,link=/dev/ttyS1,waitslave tcp:10.10.0.210:8888,forever,reuseaddr,keepa
 ls /dev
 bashio::log.info "Startade Socat"
 
+bashio::log.info "-- USBIP-test"
+usbip -v
+
 # Expose the unix socket to internal network
 socat TCP-LISTEN:50800,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusClient &
 socat TCP-LISTEN:50801,reuseaddr,fork UNIX-CONNECT:/tmp/TelldusEvents &
